@@ -1,0 +1,64 @@
+/* copy/edit the CSS below and add to your stylesheet to customize the style for MyTwitter -- highly recommend editing it first because these colors are for example only and not well coordinated */
+
+/* To edit your stylesheet in WP, go to Presentation -> Theme Editor -> Stylesheet (applies to most themes)*/
+
+/* style for each tweet */ 
+.meulareta_tweet {
+}
+/* style for each tweet time (e.g. 3 hours ago)*/
+.meulareta_tweet_time {
+        font-style: italic;
+}
+/* style for each separator */
+.meulareta_separator {
+	color: red;
+}
+/* style for tweet #1 -- you can add additional styles by adding #meulareta_tweet-2, etc. */
+#meulareta_tweet-1 {   
+}
+/* style for tweet time #1 -- you can add additional styles by adding #meulareta_tweet_time-2, etc. */
+#meulareta_tweet_time-1 {
+}
+/* style for separator #1 -- you can add additional styles by adding #meulareta_separator-2, etc. */
+#meulareta_separator-1 {
+}
+/* set style for "li" element of class "meulareta" */
+#meulareta_widget{
+  background:White
+}
+#meulareta_widget a{
+        color: #249bec;
+}
+ul li.meulareta {
+        color: green;
+}
+
+#meulareta_widget{ 
+        padding:10px;
+        padding-top:5px;
+        background:#fff url("http://www.lareta.net/downloads/logo-mini.jpg") no-repeat top right;
+        margin-top:5px;
+}
+#meulareta_widget ul li{
+        list-style:none;
+        margin:0;
+        padding:5px;
+        font-size:.8em;
+}
+.meulareta_tweet_time{padding-left:5px; color:#ccc}
+#meulareta_widget h2{
+				padding.top:15px;
+        color:Red;
+        margin:0;
+}
+#meulareta_widget{
+}
+.widgettitle{
+display: inline;
+clear: both;
+font-size: 1.7em !important;
+font-weight: normal;
+font-style: italic;
+font-family: Georgia;   
+color: #249bec;
+}
